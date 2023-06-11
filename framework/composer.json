@@ -1,0 +1,24 @@
+{
+    "name": "shah/framework",
+    "description": "This is a custom framework",
+    "require": {
+        "symfony/asset": "^6.3",
+        "symfony/http-foundation": "^6.3",
+        "symfony/routing": "^6.3",
+        "symfony/http-kernel": "^6.3",
+        "jenssegers/blade": "^1.4"
+    },
+    "require-dev": {
+        "symfony/asset": "^6.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "": ["src/"] }
+    },
+    "authors": [
+        {
+            "name": "shah-alam",
+            "email": "babubd089@gmail.com"
+        }
+    ]
+}

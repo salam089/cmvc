@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+crontab && \
+tail -f -n0 /var/www/project/var/log/cron.log
